@@ -12,6 +12,10 @@ const Calc = () => {
   function eql(){
     setValue(eval(value))
   }
+
+  let del=()=>{
+    setValue("")
+  }
   return (
     <div className={st.maindiv}>
         <div className={st.input}>
@@ -48,9 +52,9 @@ const Calc = () => {
 
 
         <div id={st.five}>
-        <div className={st.four}>0</div>
-        <div className={st.four}>.</div>
-        <div className={st.four}>AC</div>
+        <div className={st.four} onClick={handle} >0</div>
+        <div className={st.four} onClick={handle}>.</div>
+        <div className={st.four} onClick={del}>AC</div>
 
         </div>
 
