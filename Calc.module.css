@@ -8,18 +8,16 @@
     border-radius: 12px;
 }
 
-.input{
+
+
+input{
+    background-color: aqua;
+    border: none;
     height: 40px;
     margin-top: 10px;
     margin-left: 2px;
     border-radius: 10px;
-    width: 98%;
-    background-color: rgb(141, 174, 203);
-}
-
-input{
-    background-color: aqua;
-    
+    width: 93%;
 }
 input::placeholder{
     color: black;
